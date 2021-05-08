@@ -2,6 +2,25 @@
 # yarn lockfile v1
 
 
+"@fortawesome/fontawesome-common-types@^0.1.7":
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.1.7.tgz#4336c4b06d0b5608ff1215464b66fcf9f4795284"
+  integrity sha512-ego8jRVSHfq/iq4KRZJKQeUAdi3ZjGNrqw4oPN3fNdvTBnLCSntwVCnc37bsAJP9UB8MhrTfPnZYxkv2vpS4pg==
+
+"@fortawesome/fontawesome-free-solid@^5.0.13":
+  version "5.0.13"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free-solid/-/fontawesome-free-solid-5.0.13.tgz#24b61aaf471a9d34a5364b052d64a516285ba894"
+  integrity sha512-b+krVnqkdDt52Yfev0x0ZZgtxBQsLw00Zfa3uaVWIDzpNZVtrEXuxldUSUaN/ihgGhSNi8VpvDAdNPVgCKOSxw==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.1.7"
+
+"@fortawesome/fontawesome@^1.1.8":
+  version "1.1.8"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome/-/fontawesome-1.1.8.tgz#75fe66a60f95508160bb16bd781ad7d89b280f5b"
+  integrity sha512-c0/MtkPVT0fmiFcCyYoPjkG9PkMOvfrZw2+0BaJ+Rh6UEcK1AR/LaRgrHHjUkbAbs9LXxQJhFS8CJ4uSnK2+JA==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.1.7"
+
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -2070,6 +2089,11 @@ enhanced-resolve@^3.4.0:
     object-assign "^4.0.1"
     tapable "^0.2.7"
 
+entities@~2.0.0:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/entities/-/entities-2.0.3.tgz#5c487e5742ab93c15abb5da22759b8590ec03b7f"
+  integrity sha512-MyoZ0jgnLvB2X3Lg5HqpFmn1kybDiIfEQmKzTb5apr51Rb+T3KdmMiqa70T+bhGnyv7bQ6WMj2QMHpGMmlrUYQ==
+
 errno@^0.1.3, errno@~0.1.7:
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/errno/-/errno-0.1.7.tgz#4684d71779ad39af177e3f007996f7c67c852618"
@@ -3390,6 +3414,11 @@ isstream@~0.1.2:
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
   integrity sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo=
 
+izitoast@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/izitoast/-/izitoast-1.4.0.tgz#1aa4e3408b7159fba743506af66d8be54fd929fb"
+  integrity sha512-Oc1X2wiQtPp39i5VpIjf3GJf5sfCtHKXZ5szx7RareyEeFLUlcEW0FSfBni28+Ul6KNKZRKzhVuWzSP4Xngh0w==
+
 jquery@^3.2:
   version "3.4.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.4.1.tgz#714f1f8d9dde4bdfa55764ba37ef214630d80ef2"
@@ -3587,6 +3616,13 @@ lcid@^1.0.0:
   integrity sha1-MIrMr6C8SDo4Z7S28rlQYlHRuDU=
   dependencies:
     invert-kv "^1.0.0"
+
+linkify-it@^3.0.1:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/linkify-it/-/linkify-it-3.0.2.tgz#f55eeb8bc1d3ae754049e124ab3bb56d97797fb8"
+  integrity sha512-gDBO4aHNZS6coiZCKVhSNh43F9ioIL4JwRjLZPkoLIY4yZFwg264Y5lu2x6rb1Js42Gh6Yqm2f6L2AJcnkzinQ==
+  dependencies:
+    uc.micro "^1.0.1"
 
 load-json-file@^1.0.0:
   version "1.1.0"
@@ -3806,6 +3842,17 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
+markdown-it@^11.0.0:
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-11.0.1.tgz#b54f15ec2a2193efa66dda1eb4173baea08993d6"
+  integrity sha512-aU1TzmBKcWNNYvH9pjq6u92BML+Hz3h5S/QpfTFwiQF852pLT+9qHsrhM9JYipkOXZxGn+sGH8oyJE9FD9WezQ==
+  dependencies:
+    argparse "^1.0.7"
+    entities "~2.0.0"
+    linkify-it "^3.0.1"
+    mdurl "^1.0.1"
+    uc.micro "^1.0.5"
+
 math-expression-evaluator@^1.2.14:
   version "1.2.17"
   resolved "https://registry.yarnpkg.com/math-expression-evaluator/-/math-expression-evaluator-1.2.17.tgz#de819fdbcd84dccd8fae59c6aeb79615b9d266ac"
@@ -3828,6 +3875,11 @@ md5@^2.2.1:
     charenc "~0.0.1"
     crypt "~0.0.1"
     is-buffer "~1.1.1"
+
+mdurl@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/mdurl/-/mdurl-1.0.1.tgz#fe85b2ec75a59037f2adfec100fd6c601761152e"
+  integrity sha1-/oWy7HWlkDfyrf7BAP1sYBdhFS4=
 
 media-typer@0.3.0:
   version "0.3.0"
@@ -5085,9 +5137,9 @@ querystring@0.2.0:
   integrity sha1-sgmEkgO7Jd+CDadW50cAWHhSFiA=
 
 querystringify@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.1.1.tgz#60e5a5fd64a7f8bfa4d2ab2ed6fdf4c85bad154e"
-  integrity sha512-w7fLxIRCRT7U8Qu53jQnJyPkYZIaR4n5151KMfcJlO/A9397Wxb1amJvROTK6TOnp7PfoAmg/qXiNHI+08jRfA==
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.2.0.tgz#3345941b4153cb9d082d8eee4cda2016a9aef7f6"
+  integrity sha512-FIqgj2EUvTa7R50u0rGsyTftzjYmv/a3hO345bZNrqabNqjtgiDMgmo4mkUjd+nzU5oF3dClKqFIPUKybUyqoQ==
 
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5:
   version "2.1.0"
@@ -6188,6 +6240,11 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
+uc.micro@^1.0.1, uc.micro@^1.0.5:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/uc.micro/-/uc.micro-1.0.6.tgz#9c411a802a409a91fc6cf74081baba34b24499ac"
+  integrity sha512-8Y75pvTYkLJW2hWQHXxoqRgV7qb9B+9vFEtidML+7koHUFapnVJAZ6cKs+Qjz5Aw3aZWHMC6u0wJE3At+nSGwA==
+
 uglify-es@^3.3.4:
   version "3.3.9"
   resolved "https://registry.yarnpkg.com/uglify-es/-/uglify-es-3.3.9.tgz#0c1c4f0700bed8dbc124cdb304d2592ca203e677"
@@ -6317,9 +6374,9 @@ urix@^0.1.0:
   integrity sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
 
 url-parse@^1.1.8, url-parse@^1.4.3:
-  version "1.4.7"
-  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.4.7.tgz#a8a83535e8c00a316e403a5db4ac1b9b853ae278"
-  integrity sha512-d3uaVyzDB9tQoSXFvuSUNFibTd9zxd2bkVrDRvF5TmvWWQwqE4lgYJ5m+x1DbecWkw+LK4RNl2CU1hHuOKPVlg==
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.1.tgz#d5fa9890af8a5e1f274a2c98376510f6425f6e3b"
+  integrity sha512-HOfCOUJt7iSYzEx/UqgtwKRMC6EU91NFhsCHMv9oM03VJcVo2Qrp8T8kI9D7amFf1cu+/3CEhgb3rF9zL7k85Q==
   dependencies:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
@@ -6402,6 +6459,13 @@ vue-hot-reload-api@^2.2.0:
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.3.tgz#2756f46cb3258054c5f4723de8ae7e87302a1ccf"
   integrity sha512-KmvZVtmM26BQOMK1rwUZsrqxEGeKiYSZGA7SNWE6uExx8UX/cj9hq2MRV/wWC3Cq6AoeDGk57rL9YMFRel/q+g==
+
+vue-izitoast@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/vue-izitoast/-/vue-izitoast-1.2.1.tgz#cd2cbfbd96ea438dede8fb00f2c328364cb7141d"
+  integrity sha512-5krrKyAftSR3TnnO3zhMihYCSt0Lay4SBO1AWWKD3jhTErJrR+q9kOKyuAYhn1SttNER87hpnRKqdvLjzjHWQQ==
+  dependencies:
+    izitoast "^1.4.0"
 
 vue-loader@^13.7.1:
   version "13.7.3"
